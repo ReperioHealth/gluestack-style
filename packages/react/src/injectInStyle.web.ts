@@ -42,7 +42,7 @@ export function injectInStyle(_globalStyleMap: any) {
 
           if (toBeInjectedCssRules) {
             inject(
-              `@media screen {${toBeInjectedCssRules}}`,
+              `@media all {${toBeInjectedCssRules}}`,
               componentThemeHashKey as any,
               componentThemesKey
             );

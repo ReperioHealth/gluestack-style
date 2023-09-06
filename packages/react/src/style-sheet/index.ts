@@ -164,7 +164,7 @@ export class StyleInjector {
 
   injectStyles(cssRuleset: any, _wrapperType: any, _styleTagId: any) {
     if (cssRuleset) {
-      inject(`@media screen {${cssRuleset}}`, _wrapperType as any, _styleTagId);
+      inject(`@media all {${cssRuleset}}`, _wrapperType as any, _styleTagId);
     }
   }
 }
