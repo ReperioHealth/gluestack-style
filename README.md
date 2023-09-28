@@ -1,3 +1,9 @@
+# @reperiohealth/gluestack-style
+
+This fork just replaces `@media screen` with `@media all` to preserve styles when printing (for use in PDFs).
+
+---
+
 <h3 align="center">
   <a href="https://github.com/gluestack/gluestack-style">
     <img src="https://raw.githubusercontent.com/gluestack/gluestack-style/main/img/gluestack-logo.svg" alt="gluestack logo">

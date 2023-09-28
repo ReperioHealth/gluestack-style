@@ -1,6 +1,7 @@
 {
   "name": "@reperiohealth/gluestack-style",
   "description": "A universal & performant styling library for React Native, Next.js & React",
+  "homepage": "https://github.com/reperiohealth/gluestack-style",
   "version": "0.2.31-beta.1",
   "keywords": [
     "React Native",
